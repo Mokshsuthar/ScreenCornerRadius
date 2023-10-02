@@ -1,0 +1,6 @@
+framework module SwiftyUIX {
+  umbrella header "SwiftyUIX-umbrella.h"
+
+  export *
+  module * { export * }
+}

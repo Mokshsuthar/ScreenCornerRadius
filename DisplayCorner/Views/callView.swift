@@ -143,9 +143,10 @@ struct callView: View {
             }
             .background(Color.white.opacity(0.00001))
             .gesture(gesture)
+            .padding(padding)
              
         }
-        .padding(padding)
+       
         .ignoresSafeArea()
         .statusBar(hidden: true)
         .hideHomeIndicator() // to hide homebar from  bottom
